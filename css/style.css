@@ -202,7 +202,79 @@ a {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+}
+
+.footer__content-block {
+	background: transparent;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	column-gap: 18px;
+}
+
+.footer__content-block:hover .footer__content-text {
+	animation: redtxt 4s infinite;
+}
+
+.footer__content-block:hover .footer__content-wrap {
+	animation: imgred 4s infinite;
+}
+
+@keyframes redtxt {
+	0%,45%,100%{
+		text-shadow: 0 0 2px red,0 0 2px red,0 0 2px red,0 0 2px red,0 0 5px red,0 0 5px red,0 0 5px red,0 0 5px red,0 0 5px red;
+	}
+	50%{
+		text-shadow: none;
+		color: #505050;
+	}
+	51%{
+		text-shadow: 0 0 2px red,0 0 2px red,0 0 2px red,0 0 2px red,0 0 5px red,0 0 5px red,0 0 5px red,0 0 5px red,0 0 5px red;
+	}
+	52%{
+		text-shadow: none;
+		color: #505050;
+	}
+	53%{
+		text-shadow: 0 0 2px red,0 0 2px red,0 0 2px red,0 0 2px red,0 0 5px red,0 0 5px red,0 0 5px red,0 0 5px red,0 0 5px red;
+	}
+	54%{
+		text-shadow: none;
+		color: #505050;
+	}
+}
+
+@keyframes redtt{
+	0%,100%{
+		text-shadow: 2.5px 2.5px 2px red;
+	}
+	2%{
+		text-shadow: -18px -8px 2px red;
+	}
+	3%{
+		text-shadow: 8px -5px 2px red;
+	}
+	4%{
+		text-shadow: -12px -8px 2px red;
+	}
+	5%{
+		text-shadow: 10px -4px 2px red;
+	}
+	6%{
+		text-shadow: -10px -8px 2px red;
+	}
+	7%{
+		text-shadow: -3px -3px 2px red;
+	}
+}
+
+@keyframes imgred{
+	0%,100%{
+		box-shadow: 0 0 15px 5px red;
+	}
+	50%{
+		box-shadow: 0 0 0;
+	}
 }
 
 .footer__content-text {
