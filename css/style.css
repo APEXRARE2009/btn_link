@@ -221,7 +221,7 @@ a {
 
 .btn5:before {
 	content: '';
-	background: rgba(255, 255, 255, .78);
+	background: rgba(255, 255, 255, .80);
 	position: absolute;
 	top: 0;
 	left: 0;
