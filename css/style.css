@@ -204,6 +204,7 @@ a {
 	box-shadow: 0 0 20px rgba(255, 0, 64, 1);
 	transition: .4s;
 	transform: scaley(1.0);
+	color: white;
 	opacity: 1;
 }
 
