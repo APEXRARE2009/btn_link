@@ -176,7 +176,7 @@ a {
 }
 
 .btn4 {
-	border: 3px solid rgba(255, 0, 64, 1);
+	border: 3px solid rgba(248, 0, 255, 1);
 	position: relative;
 	z-index: 10;
 	transition: .4s;
@@ -184,7 +184,7 @@ a {
 
 .btn4:before {
 	content: '';
-	background: rgba(255, 0, 64, 1);
+	background: url("../img/bg.jpg");
 	position: absolute;
 	top: 0;
 	left: 0;
