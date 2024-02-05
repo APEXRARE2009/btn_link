@@ -172,7 +172,7 @@ a {
 }
 
 .btn2:hover {
-	color: black;
+	color: white;
 }
 
 .btn4 {
@@ -200,11 +200,15 @@ a {
 	transition: 1s;
 }
 
+.btn4:hover {
+	color: #ff01bd;
+	text-shadow: 0 0 6px black;
+}
+
 .btn4:hover:before {
 	box-shadow: 0 0 20px rgba(255, 0, 64, 1);
 	transition: .4s;
 	transform: scaley(1.0);
-	color: white;
 	opacity: 1;
 }
 
